@@ -2,7 +2,9 @@
 <html>
   <head>
     <title>ROANHORSE CONSULTING, LLC</title>
-    <style>body, html{
+    <style>@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+body, html{
   height: 100%;
 }
 body {
@@ -16,8 +18,17 @@ body {
   align-items: center;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, a {
   text-align: center;
+  font-family: 'Orbitron', sans-serif; 
+}
+
+h1{
+  color: rgb(103, 62, 46);
+}
+
+h4{
+  font-size:33px;
 }
 
 ul{
@@ -44,12 +55,40 @@ p {
 }
 
 .flexRow{
-  width:800px;
+  width:1080px;
   display:flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
+
+.flexRow:nth-of-type(n+2){
+  min-height:480px;
+  padding: 22px;
+  margin: 22px 0;
+  border: 1px dotted black;
+}
+
+.flexRow h4{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  height: 300px;
+  width:300px;
+  padding:0;
+  margin:0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("circle.png");
+  background-size: 100%;
+}
+
+
+.flexRow h4 a{
+  color: white;
+  text-decoration: none;
+}
+
 #slideshow {
   width:600px;
   height:400px;
@@ -95,13 +134,22 @@ div{
     padding:0px;  
 }
 
+#-logo-png- {
+  display: flex;
+  align-items: center;
+  max-height:590px;
+  overflow:none;
+}
+#-logo-png- img{
+  width:100%;
+}
 </style>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   </head>
   <body>
-    <div id=markup><h1 id="roanhorse-consulting-llc">roanhorse consulting, llc</h1>
+    <div id=markup><h1 id="-logo-png-"><img src="logo.png" alt=""></h1>
 <p><div class=flexRow></p>
-<h4 id="-services-work-"><a href="/#work">services</a></h4>
+<h4 id="-services-services-"><a href="/#services">services</a></h4>
 <h4 id="-projects-projects-"><a href="/#projects">projects</a></h4>
 <h4 id="-our-story-about-"><a href="/#about">our story</a></h4>
 <h4 id="-contact-us-contact-"><a href="/#contact">contact us</a></h4>

@@ -1,11 +1,11 @@
-# roanhorse consulting, llc
+# ![](logo.png)
 
 |||
 
-####[services](/#work) 
+####[service](/#services) 
 ####[projects](/#projects) 
-####[our story](/#about) 
-####[contact us](/#contact)
+####[staff](/#about) 
+####[contact](/#contact)
 
 |||
 
@@ -15,7 +15,7 @@
 
 $/
 
-### Forging Communities </br> of Practice
+## Forging Communities </br> of Practice
 * Engagement
 * Community Building
 * Stakeholder Management
@@ -45,13 +45,10 @@ $/
 
 |||
 
-|||
-
-[contact us](/#contact)
-
-|||
 
 # PROJECTS
+
+|||
 
 $slideshow
 
@@ -67,7 +64,7 @@ You think water moves fast? You should see ice. It moves like it has a mind. Lik
 
 ++
 
-### Changing Women Initiative
+## Changing Women Initiative
 ![yo](http://fillmurray.com/g/150/150) Normally, both your asses would be dead as fucking fried chicken, but you happen to pull this shit while I'm in a transitional period so I don't wanna kill you, I wanna help you. But I can't give you this case, it don't belong to me. Besides, I've already been through too much shit this morning over this case to hand it over to your dumb ass.
 
 ++
@@ -88,9 +85,11 @@ You think water moves fast? You should see ice. It moves like it has a mind. Lik
 
 /$
 
-[contact us](/#contact)
+|||
 
 # CONTACT
+
+|||
 
 *Tel*: [619-592-2824](tel:+6195922824)
 
@@ -100,8 +99,11 @@ You think water moves fast? You should see ice. It moves like it has a mind. Lik
 115 Gold Ave SW, Suite 209
 Albuquerque NM 87102
 
+|||
 
-# CHIEF CONSULTANTS
+# Chief Executives 
+
+|||
 
 ## Vanessa Roanhose, CEO
 
@@ -111,42 +113,14 @@ Vanessa Roanhorse, *Diné, Navajo*, returned to the Southwest region  and launch
 
 Blayne is a systems thinker, problem solver, and philosophical technician that has applied these approaches to theater, teaching, urban agriculture, carpentry, and equitable non-profit program design. Originally from Chicago, IL, Blayne learned his project development and management skills around Chicago’s Non-profit urban agriculture community, first as the Instructor for the Chicago Botanic Garden’s Windy City Harvest program and later as the urban farm manager for Plant Chicago (a closed loop, net zero food production incubator space). As Chief Operations Officer Blayne keeps the business running smoothly while also supporting and developing RCLLC’s project work. Blayne is also a secret dadaist and artist, avid cyclist, and proud husband and father.
 
-[contact us](/#contact)
+|||
 
-# footer
+|||
 
-placeholder for large talisman 
+####[service](/#services) 
+####[projects](/#projects) 
+####[staff](/#about) 
+####[contact](/#contact)
 
-placeholder for large talisman 
+|||
 
-placeholder for large talisman 
-
-placeholder for large talisman 
-
-placeholder for large talisman 
-
-placeholder for large talisman 
-
-placeholder for large talisman 
-
-placeholder for large talisman 
-
-placeholder for large talisman 
-
-placeholder for large talisman 
-
-placeholder for large talisman 
-
-placeholder for large talisman 
-
-placeholder for large talisman 
-
-placeholder for large talisman 
-
-placeholder for large talisman 
-
-placeholder for large talisman 
-
-placeholder for large talisman 
-
-placeholder for large talisman 

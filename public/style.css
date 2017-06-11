@@ -1,4 +1,6 @@
-body, html{
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+html{
   height: 100%;
 }
 body {
@@ -6,14 +8,27 @@ body {
 
 #markup{
   max-width: 1200px;
+  height:100%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, a {
   text-align: center;
+  font-family: 'Orbitron', 'Futura', sans-serif; 
+}
+
+h1{
+  font-size: 267%;
+  font-weight:900;
+  color: rgb(103, 62, 46);
+  padding-top: 22px;
+}
+
+h4{
+  font-size:33px;
 }
 
 ul{
@@ -23,50 +38,86 @@ ul{
   list-style-type: none;
 }
 
+li{
+  margin: 22px;
+}
+
 p {
   max-width: 600px;
   margin: 11px;
 }
 
-
 .flexContent, .flexRow a {
-  padding: 0 22px;
+  padding: 22px;
+  margin 22px;
 }
 
 .flexRow .flexContent:not(a){
   min-width: 25%;
+  min-height: 67vh;
   border: 3px solid black;
-  padding-bottom: 22px;
 }
 
 .flexRow{
-  width:800px;
+  width: 100%;
+  max-width:1080px;
+  height:87vh;
   display:flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
+  align-items:flex-start;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
+
+.flexRow h4{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  height: 200px;
+  width:200px;
+  padding:0;
+  margin:0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: hsla(1, 100%, 100%, .5);
+  background-image: radial-gradient(rgba(255, 255, 255, .43331) 42%, rgba(255,255,255,0)), url(circle.png);
+  background-size: 100%;
+}
+
+
+.flexRow h4 a{
+  color: rgb(67, 41, 18);
+  text-shadow: 1px 1px 1px white;
+  text-decoration: none;
+}
+
 #slideshow {
-  width:600px;
-  height:400px;
+  width:100%;
+  max-width:1080px;
+  height:100%;
   position:relative;
   overflow:hidden;
-  align-self: center;
+  align-self: flex-start;
+  border: 4px solid rgb(67, 41, 18);
 }
 
 
 .slide{
+  display: flex;
+  justify-content: center;
+  flex-wrap:wrap;
   width:100%;
-  max-width:600px;
-  padding:0;
-  opacity: 0;
-  transition: transform .6s cubic-bezier(0.455, 0.020, 0.000, 1.0);
+  padding:7vh 0;
+  filter: blur(20px);
+  transition: all .6s cubic-bezier(0.455, 0.020, 0.000, 1.0);
+}
+.slide h2{
+  width:100%;
 }
 
 .slide img{
 float:left;
 padding: 0 11px 0 0;
-display:none;
 }
 
 .slide p {
@@ -75,7 +126,9 @@ display:none;
 }
 
 .scene {
-	transition: opacity .6s transform .6s cubic-bezier(0.455, 0.020, 0.000, 1.0);	opacity: 1;
+	transition: filter .6s opacity .6s transform .6s cubic-bezier(0.455, 0.020, 0.000, 1.0);	
+  opacity: 1;
+  filter: blur(0px);
 
 }
 
@@ -91,3 +144,15 @@ div{
     padding:0px;  
 }
 
+#-logo-png- {
+  display: flex;
+  align-items: center;
+  overflow:hidden;
+}
+#-logo-png- img{
+  padding: 0;
+  margin: 0;
+  max-width:100%;
+  order: 5;
+  align-self: flex-start;
+}
