@@ -115,7 +115,7 @@ Albuquerque NM 87102
 
 $=
 
-## Vanessa Roanhose, CEO
+## Vanessa Roanhorse, CEO
 
 Vanessa Roanhorse, *Diné, Navajo*, returned to the Southwest region  and launched Roanhorse Consulting LLC in 2016 in order to focus her work on providing access to overlooked communities, specifically for indigenous communities.  RCLLC, a startup itself, is dedicated to working with unheralded communities, businesses, organizations, and individuals to achieve and aspire their self-determination through forging communities of practice, creating equity through entrepreneurship, and encouraging economic empowerment from within.  Vanessa got her management chops working for 7 years at a Chicago-based nonprofit, the Delta Institute, focused throughout the Great Lakes region to build a resilient environment and economy through creative, sustainable, market-driven solutions. Vanessa oversaw many of Delta’s on-the-ground energy efficiency, green infrastructure, community engagement programs, and workforce development training. She’s had the chance to work with incredible organizations such as Delta Institute, Cultivating Coders, Changing Woman Initiative, ComEd, IDEO, 1871, Center for Neighborhood Technology, ReBuilding Exchange, Living Cities, ICLEI, Urban Sustainability Directors Network, and the Cities of Albuquerque, Chicago, Miami, and the Navajo Nation. Her academic education is in film from the University of Arizona but her professional education is from hands-on experience leading local, regional and national initiatives. Vanessa hopes to foster a community of empathy to solve our greatest challenges one action at a time. She is a big fan of tacos, specifically Al Pastor tacos and is a Chicago Bulls fan for life.
 
