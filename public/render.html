@@ -8,6 +8,9 @@ html{
   height: 100%;
 }
 body {
+  margin:0;
+  padding-bottom:11px;
+  background-color: rgba(227, 194, 218, .3);
 }
 
 #markup{
@@ -17,22 +20,35 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom:11px;
 }
 
+#markup > p{
+  display:none
+}
+
+hr{
+  width:100%;
+  margin: 12vh 7vw;
+}
 h1, h2, h3, h4, a {
   text-align: center;
-  font-family: 'Orbitron', 'Futura', sans-serif; 
+  font-family:Georgia, serif; 
 }
 
 h1{
-  font-size: 267%;
+  font-size: 65px;
+  font-style: italic;
   font-weight:900;
   color: rgb(103, 62, 46);
-  padding-top: 22px;
+  margin:0;
+  padding:22px;
 }
 
 h4{
   font-size:33px;
+  font-style: italic;
+  
 }
 
 ul{
@@ -48,9 +64,66 @@ li{
 
 p {
   max-width: 600px;
-  margin: 11px;
+  margin: 22px 0 0 0 ;
+  font-size: 18px;
+  font-family: Courier;
+  background:white;
+  padding:22px;
+  border: 1px solid rgb(103, 62, 46);
+}
+.flexColumn{ 
+  margin:0;
+  padding: 0  0 22px 0;
+  width: 100%;
+  min-height:100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid rgb(67, 41, 18);
+}
+.flexRow:nth-of-type(2) .flexColumn{
+  min-height:100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid rgb(67, 41, 18);
+  width: 30.3333333%;
+ background-image: linear-gradient(rgba(67, 41, 18, .5), rgba(255, 255, 255, .5)), url(rockwall.jpg);
+  background-size: auto 110%;
+  background-position: 0 10%;
 }
 
+.flexRow:nth-of-type(2) .flexColumn:nth-of-type(2){
+  background-position: 30.3333333% 10%;
+}
+.flexRow:nth-of-type(2) .flexColumn:nth-of-type(3){
+  background-position: 60.6666666% 10%;
+}
+
+.flexColumn h2{
+  margin:22px 0 0 0;
+  padding: 22px 0 22px 0;
+  background-color: rgba(67, 41, 18, .5);
+  width: 100%;
+  color: white;
+  text-shadow: 0px 0px 7px rgb(67, 41, 18);
+}
+
+.flexColumn h3{
+  width: 67%;
+  padding: 22px 0;
+  border: 3px solid rgb(67, 41, 18); 
+  background-color: white;
+}
+.flexRow:nth-of-type(5) .flexColumn  h2{
+  font-size: 200%;
+  background-color: rgba(67, 41, 18, 1);
+}
+
+.flexRow:nth-of-type(5) .flexColumn  p{
+  text-align: justify;
+  text-indent: 3em;
+}
 .flexContent, .flexRow a {
   padding: 22px;
   margin 22px;
@@ -65,12 +138,21 @@ p {
 .flexRow{
   width: 100%;
   max-width:1080px;
-  height:87vh;
+  min-height: 100vh;
   display:flex;
-  flex-direction: row;
-  align-items:flex-start;
+  align-items:center;
   flex-wrap: wrap;
   justify-content: space-around;
+  padding: 22px 0;
+}
+
+.flexRow:nth-of-type(1){
+  padding-top:0;
+}
+
+.flexRow:not(:nth-of-type(1)){
+  border-top: 3px solid rgb(67, 41, 18);
+  border-bottom: 3px solid rgb(67, 41, 18);
 }
 
 .flexRow h4{
@@ -83,7 +165,7 @@ p {
   margin:0;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: hsla(1, 100%, 100%, .5);
+  background-color: hsla(1, 100%, 100%, .0);
   background-image: radial-gradient(rgba(255, 255, 255, .43331) 42%, rgba(255,255,255,0)), url(circle.png);
   background-size: 100%;
 }
@@ -94,46 +176,52 @@ p {
   text-shadow: 1px 1px 1px white;
   text-decoration: none;
 }
+.flexRow > p {
+  display:none;
+}
 
 #slideshow {
   width:100%;
   max-width:1080px;
-  height:100%;
+  height:100vh;
   position:relative;
   overflow:hidden;
   align-self: flex-start;
-  border: 4px solid rgb(67, 41, 18);
+  border: 3px solid rgb(67, 41, 18);
 }
 
 
 .slide{
+  background:white;
+  height:100%;
   display: flex;
-  justify-content: center;
+  flex-direction:column;
+  justify-content: flex-start;
+  align-items: center;
   flex-wrap:wrap;
   width:100%;
   padding:7vh 0;
-  filter: blur(20px);
   transition: all .6s cubic-bezier(0.455, 0.020, 0.000, 1.0);
+  filter: blur(11px);
 }
 .slide h2{
   width:100%;
 }
 
 .slide img{
-float:left;
-padding: 0 11px 0 0;
+  float:left;
+  padding: 0 11px 0 0;
 }
 
 .slide p {
   padding: 0 11px;
-
+  border:none;
 }
 
 .scene {
-	transition: filter .6s opacity .6s transform .6s cubic-bezier(0.455, 0.020, 0.000, 1.0);	
   opacity: 1;
   filter: blur(0px);
-
+	transition: filter .6s opacity .6s transform .6s cubic-bezier(0.455, 0.020, 0.000, 1.0);	
 }
 
 .scene img{
@@ -152,6 +240,7 @@ div{
   display: flex;
   align-items: center;
   overflow:hidden;
+  padding:0;
 }
 #-logo-png- img{
   padding: 0;
@@ -164,41 +253,37 @@ div{
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   </head>
   <body>
-    <div id=markup><h1 id="-logo-png-"><img src="logo.png" alt=""></h1>
-<p><div class=flexRow></p>
-<h4 id="-service-services-"><a href="/#services">service</a></h4>
-<h4 id="-projects-projects-"><a href="/#projects">projects</a></h4>
-<h4 id="-staff-staff-"><a href="/#staff">staff</a></h4>
-<h4 id="-contact-contact-"><a href="/#contact">contact</a></h4>
+    <div id=markup><p><div class=flexRow></p>
+<hr>
+<h1 id="-logo-png-"><img src="logo.png" alt=""></h1>
+<h4 id="-service-services-"><a href="/#services">Service</a></h4>
+<h4 id="-projects-projects-"><a href="/#projects">Projects</a></h4>
+<h4 id="-staff-staff-"><a href="/#staff">Staff</a></h4>
+<h4 id="-contact-contact-"><a href="/#contact">Contact</a></h4>
+<hr>
 <p></div></p>
 <h1 id="services">services</h1>
 <div class=flexRow>
-<div class=flexContent>
+<div class=flexColumn>
 <h2 id="forging-communities-br-of-practice">Forging Communities </br> of Practice</h2>
-<ul>
-<li>Engagement</li>
-<li>Community Building</li>
-<li>Stakeholder Management</li>
-</ul>
+<h3 id="engagement">Engagement</h3>
+<h3 id="community-building">Community Building</h3>
+<h3 id="stakeholder-br-management">Stakeholder </br> Management</h3>
 </div>
-<div class=flexContent>
-<h3 id="equity-through-br-entrepreneurship">Equity Through </br> Entrepreneurship</h3>
-<ul>
-<li>Native</li>
-<li>Rural</li>
-<li>People of Color</li>
-<li>Women</li>
-<li>Access to Capital</li>
-</ul>
+<div class=flexColumn>
+<h2 id="equity-through-br-entrepreneurship">Equity Through </br> Entrepreneurship</h2>
+<h3 id="native">Native</h3>
+<h3 id="rural">Rural</h3>
+<h3 id="people-of-color">People of Color</h3>
+<h3 id="women">Women</h3>
+<h3 id="access-to-capital">Access to Capital</h3>
 </div>
-<div class=flexContent>
-<h3 id="economic-empowerment-br-from-within">Economic Empowerment </br> from Within</h3>
-<ul>
-<li>Project Design</li>
-<li>Implenetation</li>
-<li>Organizational Development</li>
-<li>Fundraising Development</li>
-</ul>
+<div class=flexColumn>
+<h2 id="economic-empowerment-br-from-within">Economic Empowerment </br> from Within</h2>
+<h3 id="project-design">Project Design</h3>
+<h3 id="implenetation">Implenetation</h3>
+<h3 id="organizational-br-development">Organizational </br> Development</h3>
+<h3 id="fundraising-br-development">Fundraising </br> Development</h3>
 </div>
 </div>
 <h1 id="projects">projects</h1>
@@ -225,29 +310,27 @@ div{
 </div>
 <h1 id="contact">contact</h1>
 <p><div class=flexRow></p>
+<div class=flexColumn>
 <p><em>Tel</em>: <a href="tel:+6195922824">619-592-2824</a></p>
 <p><em>e-mail</em>: <a href="mailto:vanessa@roanhorseconsulting.com">vanessa@roanhorseconsulting.com</a></p>
 <p><strong><em>Roanhorse Consulting LLC</em></strong><br>115 Gold Ave SW, Suite 209<br>Albuquerque NM 87102</p>
+</div>
 <p></div></p>
 <h1 id="staff">staff</h1>
 <div class=flexRow>
-<h2 id="vanessa-roanhose-ceo">Vanessa Roanhose, CEO</h2>
+<div class=flexColumn>
+<h2 id="vanessa-roanhorse-ceo">Vanessa Roanhorse, CEO</h2>
 <p>Vanessa Roanhorse, <em>Diné, Navajo</em>, returned to the Southwest region  and launched Roanhorse Consulting LLC in 2016 in order to focus her work on providing access to overlooked communities, specifically for indigenous communities.  RCLLC, a startup itself, is dedicated to working with unheralded communities, businesses, organizations, and individuals to achieve and aspire their self-determination through forging communities of practice, creating equity through entrepreneurship, and encouraging economic empowerment from within.  Vanessa got her management chops working for 7 years at a Chicago-based nonprofit, the Delta Institute, focused throughout the Great Lakes region to build a resilient environment and economy through creative, sustainable, market-driven solutions. Vanessa oversaw many of Delta’s on-the-ground energy efficiency, green infrastructure, community engagement programs, and workforce development training. She’s had the chance to work with incredible organizations such as Delta Institute, Cultivating Coders, Changing Woman Initiative, ComEd, IDEO, 1871, Center for Neighborhood Technology, ReBuilding Exchange, Living Cities, ICLEI, Urban Sustainability Directors Network, and the Cities of Albuquerque, Chicago, Miami, and the Navajo Nation. Her academic education is in film from the University of Arizona but her professional education is from hands-on experience leading local, regional and national initiatives. Vanessa hopes to foster a community of empathy to solve our greatest challenges one action at a time. She is a big fan of tacos, specifically Al Pastor tacos and is a Chicago Bulls fan for life.</p>
 <h2 id="blayne-greiner-coo">Blayne Greiner, COO</h2>
 <p>Blayne is a systems thinker, problem solver, and philosophical technician that has applied these approaches to theater, teaching, urban agriculture, carpentry, and equitable non-profit program design. Originally from Chicago, IL, Blayne learned his project development and management skills around Chicago’s Non-profit urban agriculture community, first as the Instructor for the Chicago Botanic Garden’s Windy City Harvest program and later as the urban farm manager for Plant Chicago (a closed loop, net zero food production incubator space). As Chief Operations Officer Blayne keeps the business running smoothly while also supporting and developing RCLLC’s project work. Blayne is also a secret dadaist and artist, avid cyclist, and proud husband and father.</p>
 </div>
-<div class=flexRow>
-<h4 id="-service-services-"><a href="/#services">service</a></h4>
-<h4 id="-projects-projects-"><a href="/#projects">projects</a></h4>
-<h4 id="-staff-staff-"><a href="/#staff">staff</a></h4>
-<h4 id="-contact-contact-"><a href="/#contact">contact</a></h4>
 </div>
 </div>
 </body>
     <script type="text/javascript">(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
 var slideshow = require('../uxer-show')
 var show = slideshow('slideshow', 'left', 0)
-
+show.goTo(0)
 var i = 0
 setInterval(function(){
   show.goTo(i++%4)
