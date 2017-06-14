@@ -39,7 +39,7 @@ $=
 
 $=
 
-## Economic Empowerment </br> from Within
+## Economic Empowerment 
 ### Project Design
 ### Implenetation
 ### Organizational </br> Development
