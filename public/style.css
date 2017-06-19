@@ -1,12 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Orbitron');
-
 html{
   height: 100%;
 }
 body {
   margin:0;
   padding-bottom:11px;
-  background-color: rgba(227, 194, 218, .3);
+  background-color: rgba(227, 229, 227, .67);
 }
 
 #markup{
@@ -29,14 +27,14 @@ hr{
 }
 h1, h2, h3, h4, a {
   text-align: center;
-  font-family:Georgia, serif; 
+  font-family: 'Futura', sans-serif; 
 }
 
 h1{
   font-size: 65px;
   font-style: italic;
   font-weight:900;
-  color: rgb(103, 62, 46);
+  color: rgb(67, 41, 18);
   margin:0;
   padding:22px;
 }
@@ -111,6 +109,7 @@ p {
   border: 3px solid rgb(67, 41, 18); 
   background-color: white;
 }
+
 .flexRow:nth-of-type(5) .flexColumn  h2{
   font-size: 200%;
   background-color: rgba(67, 41, 18, 1);

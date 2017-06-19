@@ -1,4 +1,4 @@
-|||
+≡
 
 ----
 
@@ -11,22 +11,22 @@
 
 ----
 
-|||
+≡
 
 # services 
 
-|||
+≡
 
-$=
+|||
 
 ## Forging Communities </br> of Practice
 ### Engagement
 ### Community Building
 ### Stakeholder </br> Management
 
-=$
+|||
 
-$=
+|||
 
 ## Equity Through </br> Entrepreneurship
 ### Native
@@ -35,24 +35,23 @@ $=
 ### Women
 ### Access to Capital
 
-=$
+|||
 
-$=
+|||
 
-## Economic Empowerment 
+## Economic </br> Empowerment 
 ### Project Design
 ### Implenetation
 ### Organizational </br> Development
 ### Fundraising </br> Development
 
-=$
-
 |||
 
+≡
 
 # projects 
 
-|||
+≡
 
 $slideshow
 
@@ -89,13 +88,13 @@ You think water moves fast? You should see ice. It moves like it has a mind. Lik
 
 /$
 
-|||
+≡
 
 # contact 
 
-|||
+≡
 
-$=
+|||
 
 *Tel*: [619-592-2824](tel:+6195922824)
 
@@ -105,15 +104,15 @@ $=
 115 Gold Ave SW, Suite 209
 Albuquerque NM 87102
 
-=$
-
 |||
+
+≡
 
 # staff 
 
-|||
+≡
 
-$=
+|||
 
 ## Vanessa Roanhorse, CEO
 
@@ -123,8 +122,8 @@ Vanessa Roanhorse, *Diné, Navajo*, returned to the Southwest region  and launch
 
 Blayne is a systems thinker, problem solver, and philosophical technician that has applied these approaches to theater, teaching, urban agriculture, carpentry, and equitable non-profit program design. Originally from Chicago, IL, Blayne learned his project development and management skills around Chicago’s Non-profit urban agriculture community, first as the Instructor for the Chicago Botanic Garden’s Windy City Harvest program and later as the urban farm manager for Plant Chicago (a closed loop, net zero food production incubator space). As Chief Operations Officer Blayne keeps the business running smoothly while also supporting and developing RCLLC’s project work. Blayne is also a secret dadaist and artist, avid cyclist, and proud husband and father.
 
-=$
-
 |||
+
+≡
 
 
