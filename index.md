@@ -4,10 +4,10 @@
 
 # ![](logo.png)
 
-####[Service](/#services) 
-####[Projects](/#projects) 
-####[Staff](/#staff) 
-####[Contact](/#contact)
+####[Service](#services) 
+####[Projects](#projects) 
+####[Staff](#staff) 
+####[Contact](#contact)
 
 ----
 
